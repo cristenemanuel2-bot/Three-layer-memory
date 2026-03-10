@@ -8,7 +8,7 @@
   "payload": {
     "kind": "agentTurn",
     "message": "DAILY MEMORY SYNC — pull sessions_list for today, read sessions_history for each, distill key decisions/action items/conversations into memory/YYYY-MM-DD.md with ## headers and bullet points, then run: openclaw memory index",
-    "model": "openai-compat/claude-sonnet-4-5-20250514"
+    "model": "anthropic/claude-sonnet-4-5"
   },
   "sessionTarget": "isolated",
   "enabled": true

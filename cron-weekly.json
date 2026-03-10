@@ -7,7 +7,7 @@
   },
   "payload": {
     "kind": "agentTurn",
-    "message": "WEEKLY GENIUS COMPOUND — 读取本周所有 memory/YYYY-MM-DD.md：1) 矛盾检测（列出所有冲突观点并解决）2) 因果链提取（生成 5-10 条「因为...所以...」）3) 模式发现（提炼 8-15 条可复用的洞见）4) 关系图谱更新（在 RELATIONSHIPS.md 里用 Markdown 表格维护实体关系）5) 重要性评分（每条记忆打 0-100 分，低分自动压缩）6) 写入 MEMORY.md（精华部分）和 INSIGHTS.md（深度思考）7) 生成「本周我学到的 3 个最大教训」8) 最后运行：openclaw memory index",
+    "message": "你是记忆炼金师 + 首席思考官。读取本周所有 memory/YYYY-MM-DD.md 文件，进行以下深度工作：1) 矛盾检测：列出所有冲突观点并解决或记录 2) 因果链提取：生成 5-10 条「因为…所以…」关键链条 3) 模式与洞见：提炼 8-15 条可复用的人生/项目智慧，写入 INSIGHTS.md 4) 关系图谱更新：在 RELATIONSHIPS.md 用 Markdown 表格维护人物-事件-决策关系 5) 记忆评分：每条记忆打 0-100 分，低分自动压缩进 archive/ 6) 精华写入：更新 MEMORY.md（保持高密度）7) 本周最大教训：总结 3 条最重要洞见。完成后自动运行：openclaw memory index",
     "model": "anthropic/claude-sonnet-4-5"
   },
   "sessionTarget": "isolated",
